@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/login" CheckVisibility="True" ContentHash="c0bp14ZcZUmZgdVen0Bizw" DesignTimeRectangle="792, 513, 352, 36" ElementType="InputBox" FriendlyName="'INPUT idTxtBx_SAOTCC_OTC'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='tel' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='tel' aaname='' /&gt;" Guid="345afcc4-fd9e-4b0c-9d40-12bbf22b0abd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0eQTfC3-ksUeke26TwNtpwQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d38c9ab70d4713e9e243b6b9afec54ab.png" xmlns="">0zPUWvN0j5kSvAXSz9Qz-Eg</imageRef>
+</TargetAnchorable>

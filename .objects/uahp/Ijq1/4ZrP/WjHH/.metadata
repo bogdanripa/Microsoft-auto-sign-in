@@ -1,0 +1,14 @@
+﻿{
+  "Id": "WjHHjez30UWnTqZJmbNRXw",
+  "Reference": "7Rs1aSJcXkyTi8VZ570VcQ/WjHHjez30UWnTqZJmbNRXw",
+  "ParentRef": "7Rs1aSJcXkyTi8VZ570VcQ/4ZrPXfR54kqngqNZUiIJQg",
+  "Name": "2FA Code Button",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2021-12-03T13:17:14.5518244Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-03T13:17:14.5518244Z"
+}

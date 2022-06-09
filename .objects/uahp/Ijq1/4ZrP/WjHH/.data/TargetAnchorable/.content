@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/login" CheckVisibility="True" ContentHash="Ay80h2xGEUu6ZfsOgNxNZg" DesignTimeRectangle="792, 479, 48, 48" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl parentid='idDiv_SAOTCS_Proofs' tag='IMG' src='*code*' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='idDiv_SAOTCS_Proofs' tag='IMG' aaname='' /&gt;" Guid="1b25c841-8f17-4638-8975-37d4e2f0cd2f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0drkq2DPvVECNpypO3QQkYA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="287db1ad1f66d0aad2ee5d462f72fa4d.png" xmlns="">0lZFHbR6Mq0aHknPAliV98Q</imageRef>
+</TargetAnchorable>

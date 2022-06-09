@@ -1,0 +1,14 @@
+﻿{
+  "Id": "uahpwcPqJkSr7kmpB53bzw",
+  "Reference": "7Rs1aSJcXkyTi8VZ570VcQ/uahpwcPqJkSr7kmpB53bzw",
+  "Name": "Microsoft Auth",
+  "Type": "App",
+  "Created": "2021-11-29T11:07:08.4044331Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-11-29T11:07:19.0584854Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

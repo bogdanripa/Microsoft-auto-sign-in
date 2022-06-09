@@ -1,0 +1,14 @@
+﻿{
+  "Id": "yQXRH2OWDUijV3hmM__9wQ",
+  "Reference": "7Rs1aSJcXkyTi8VZ570VcQ/yQXRH2OWDUijV3hmM__9wQ",
+  "ParentRef": "7Rs1aSJcXkyTi8VZ570VcQ/4ZrPXfR54kqngqNZUiIJQg",
+  "Name": "Remember Code",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Created": "2022-06-08T13:11:37.9101161Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=22.4.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-08T13:11:37.9101161Z"
+}

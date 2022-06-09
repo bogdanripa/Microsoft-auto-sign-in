@@ -1,0 +1,14 @@
+﻿{
+  "Id": "8BEVM6FoO0WaQ8LdBXOHkg",
+  "Reference": "7Rs1aSJcXkyTi8VZ570VcQ/8BEVM6FoO0WaQ8LdBXOHkg",
+  "ParentRef": "7Rs1aSJcXkyTi8VZ570VcQ/4ZrPXfR54kqngqNZUiIJQg",
+  "Name": "2FA Code",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2021-11-29T11:07:28.0265623Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-11-29T11:07:28.0265623Z"
+}
