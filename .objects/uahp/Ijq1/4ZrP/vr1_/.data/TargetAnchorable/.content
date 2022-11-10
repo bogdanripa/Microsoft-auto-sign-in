@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?prompt=select_account&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fid-alpha.uipath.com%2Flogin%2Fcallback&amp;scope=User.Read%20openid%20email%20profile%20&amp;state=ITMcYrTYmvo9OT-vJMQohj-fZJ_jcPm1&amp;client_id=eb812cb0-7881-44a8-82f7-df95f812e34d" CheckVisibility="True" ContentHash="3vY9YqyHvk6QokPTpNeO1Q" DesignTimeRectangle="1036, 576, 108, 32" ElementType="Button" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Next' check:text='Next' /&gt;" Guid="324f6b6c-cba2-4480-a9c3-c1f7caf657a5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sign in to your account' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">0ZhX8mv5YBkGqAwwnI8488A</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="776e783972562f2ed39ebe33c5a85278.png" xmlns="">08c9k5hVzGkKGzicYM_OHGg</imageRef>
-</TargetAnchorable>

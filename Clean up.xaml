@@ -1,0 +1,152 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Clean_up" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1697,1598" sap2010:WorkflowViewState.IdRef="Clean_up_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="31">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="30">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPathTeam.TwoStepAuthentication.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Clean_up" sap:VirtualizedContainerService.HintSize="678,1533" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: City Grill UiPath" sap:VirtualizedContainerService.HintSize="636,1443" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="999d20e5-8a45-4915-a3b4-fc228f731572" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="602,1217" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click '2 SHOPPING CART CLOSE'" sap:VirtualizedContainerService.HintSize="560,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="999d20e5-8a45-4915-a3b4-fc228f731572" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://uipath.citygrill.ro/" DesignTimeRectangle="1738, 111, 36, 52" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'2 SHOPPING CART CLOSE'" FullSelectorArgument="&lt;webctrl tag='DIV' class='tt-cart tt-dropdown-obj' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='DIV' class='tt-cart tt-dropdown-obj' type='' aaname='              ' check:text='2&amp;#xA;    &amp;#xA;&amp;#xA;    &amp;#xA;      &amp;#xA;        SHOPPING CART&amp;#xA;        CLOSE&amp;#xA;      &amp;#xA;      &amp;#xA;        &amp;#xA;          &amp;#xA;&amp;#xA;        ' /&gt;" Guid="f7f233ff-d109-4268-8cc6-fcd1deaea93b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAA4CAYAAACPKLr2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJISURBVGhD7Za/SxthGMf7b9xYcBEKN2aTDmYLbkGH4hJwCBi0QwnpdDiYOMgRhDRD0YrcYolQuA5tOkgGl4CBS4RMchYiEZcDkaMdvn3f5GJj7mfeN+l1eD/whPe5y/DheZ/3ee8F/gNujA7Ka+vIvVx0ReyCxvcf2Fp45SlHI1ZBWrkgORqxCvpt63jEJki31kvo4OMlHm0bvx5o/IxP8Hj7nafgp90P0FaG673qVXyCylLSJeeOz/EJhh0OGspRjBUMFXxdQteyZydotQ7xNpWAJCXwJq/BeHBe+BC4xUSuc2vDapRmJNiuIJUqot6zSWLD/FpAelNHf/jWE79DkltR0b2zca/vQCH5TASNsgzlnMqNsKBvp6FdO6kHfmPmokte/h6NmRltcXNfgtp0EgevZ5PMd1D3ashIEum58JDf10lN3cz3qmuqkPaHJQqsoFVHYbkCY/jYxdw+FvpnGWROzcHaKCegtgbLJ/4+M6DKChrjLTrBXD633AfDjz5qGxnUbpw0AFpNerrpCKJVpcEoaKGeT6LSdtIQohwYPxgFTWirWehBg24M85S0w1nEP0/AKNiEKqnkNxr2uQK57HdMgmETpCNmoxZ4UzyD3DTJvPeoCYNNsKVC3mmQSy0ifR3ZVY00xvQwCVrfCkhWp9ky2hLFyC0xDpOgeZJG9ss0Te+Mmp6TTgGTIJ2BXldacMiuYR4Fth78hwhBXoQgL0KQFyHIixDkRQjyIgR5EYK8CEFehCAvQpAXIciLEORFCPIiBPkA/gDURzMnF+C19AAAAABJRU5ErkJggg==" InformativeScreenshot="1be464dbfcd02aa48e5c287706072842.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='City Grill UiPath' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="560,919" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="10" StartAt="1">
+              <ui:RepeatNumberOfTimesX.Body>
+                <ActivityAction x:TypeArguments="x:Int32">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="526,754" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="ui:UiElement" Name="delEl" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" ContinueOnError="True" DisplayName="Find Element 'SVG  Layer_1'" FoundElement="[delEl]" sap:VirtualizedContainerService.HintSize="484,116" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
+                      <ui:WaitUiElementAppear.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bdba919c-2b93-4171-93d6-c9282f0edc09" InformativeScreenshot="de69e5480b5b8710786463a80422ffb6" Selector="&lt;webctrl tag='DIV' class='tt-item-close' idx='1' /&gt;" TimeoutMS="100">
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:WaitUiElementAppear.Target>
+                    </ui:WaitUiElementAppear>
+                    <If Condition="[IsNothing(delEl)]" sap:VirtualizedContainerService.HintSize="484,320" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="400,124" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:Break sap:VirtualizedContainerService.HintSize="358,32" sap2010:WorkflowViewState.IdRef="Break_1" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NClick ClickType="Single" ContinueOnError="True" DisplayName="Click" sap:VirtualizedContainerService.HintSize="484,146" sap2010:WorkflowViewState.IdRef="NClick_2" InUiElement="[delEl]" KeyModifiers="None" MouseButton="Left" Timeout="100" Version="V3" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:RepeatNumberOfTimesX.Body>
+            </ui:RepeatNumberOfTimesX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="60dc5dfdd3d257f854bce7fbd1b9f0e9.jpg" Selector="&lt;html app='chrome.exe' title='City Grill UiPath' /&gt;" Url="https://uipath.citygrill.ro/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
