@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1697,2411</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1057,2411</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="39">
@@ -101,8 +101,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Microsoft Account" CacheStrategy="None" DisplayName="Get Account Credential" FolderPath="bogdan.ripa@uipath.com's workspace" sap:VirtualizedContainerService.HintSize="984,190" sap2010:WorkflowViewState.IdRef="GetRobotCredential_5" Password="[password]" Username="[email]" />
-    <ui:GetRobotCredential TimeoutMS="{x:Null}" Username="{x:Null}" AssetName="2FA Secret" CacheStrategy="None" DisplayName="Get 2FA Secret" FolderPath="bogdan.ripa@uipath.com's workspace" sap:VirtualizedContainerService.HintSize="984,190" sap2010:WorkflowViewState.IdRef="GetRobotCredential_6" Password="[secret]" />
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Microsoft Account" CacheStrategy="None" DisplayName="Get Account Credential" sap:VirtualizedContainerService.HintSize="984,190" sap2010:WorkflowViewState.IdRef="GetRobotCredential_5" Password="[password]" Username="[email]" />
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" Username="{x:Null}" AssetName="2FA Secret" CacheStrategy="None" DisplayName="Get 2FA Secret" sap:VirtualizedContainerService.HintSize="984,190" sap2010:WorkflowViewState.IdRef="GetRobotCredential_6" Password="[secret]" />
     <Parallel sap:VirtualizedContainerService.HintSize="984,1073" sap2010:WorkflowViewState.IdRef="Parallel_5" CompletionCondition="[signedIn]">
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Sequence workflow" sap:VirtualizedContainerService.HintSize="334,1017" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Sign In.xaml">
         <ui:InvokeWorkflowFile.Arguments>
