@@ -1,5 +1,5 @@
-# Microsoft-auto-sign-in
-Automatically signs you in to a Microsoft account using your email address, password and 2 factor authentication if needed 
+# UiPath food oredring automation
+Automatically signs you in to a Microsoft account using your email address, password and 2 factor authentication if needed - in order to order food.
 
 Requires a credential called "Microsoft Account" w/ your UiPath email/password
 Requires a credential called "2FA Secret" with your 2FA secret key (see bellow)
